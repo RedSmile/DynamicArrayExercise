@@ -1,4 +1,4 @@
-//alcuni termini informatici in italiano potrebbero essere sbagliati, tradurre dal russo non e' semplice
+
 //non vi aspettate grandi cose e' solo un esercizio sugli array dinamici 
 
 #include <iostream>
