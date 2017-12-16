@@ -1,5 +1,5 @@
 
-//non vi aspettate grandi, cose e' solo un esercizio sugli array dinamici 
+//non vi aspettate grandi cose e' solo un esercizio sugli array dinamici 
 
 #include <iostream>
 #include <ctime>
