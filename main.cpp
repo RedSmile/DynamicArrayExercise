@@ -33,6 +33,7 @@ void AddNewArr(int size, const int newsize, int *arr){
 
 	for (int i = 0; i < size; i++)
 		newarr[i] = arr[i];
+	
 	delete[] arr;
 	for (; size < newsize; ){
 		newarr[size] = rand() % 99 + 1;
@@ -41,6 +42,7 @@ void AddNewArr(int size, const int newsize, int *arr){
 
 	for (int i = 0; i < newsize; i++)
 		cout << "il contenuto nell'array della casella n. " << i << " e':\t" << newarr[i] << endl;
+	
 	cout << "============================================================================================================" << endl;
 
 	for (int i = 0; i < newsize; i++)
@@ -73,8 +75,7 @@ int main()
 	cout << "vuoi aggiungere un numero all'array?\ny/n" << endl;
 	cin >> risposta;
 	system("cls");
-	if (risposta == 'y' || risposta == 'Y')
-	{
+	if (risposta == 'y' || risposta == 'Y'){
 		cout << "di quanto vuoi aumentare l'array?" << endl;
 		cin >> add;
 		newsize = size + add;
